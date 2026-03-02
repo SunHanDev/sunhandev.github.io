@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Han Sun</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { min-height: 100vh; background: radial-gradient(circle at top, #f8cdda, #1d1e22); display: flex; align-items: center; justify-content: center; color: #fff; }
+    .container { width: 100%; max-width: 420px; padding: 40px 20px; text-align: center; }
+    h2 { font-size: 22px; margin-bottom: 20px; }
+    .blog-item { display: block; background: rgba(255,255,255,0.05); backdrop-filter: blur(5px); padding: 15px; margin: 10px 0; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1); text-align: left; text-decoration: none; color: white; transition: 0.2s; }
+    .blog-item:hover { background: rgba(255,255,255,0.15); transform: translateX(5px); }
+    .blog-date { font-size: 11px; opacity: 0.6; margin-bottom: 5px; }
+    .blog-title { font-size: 14px; font-weight: 500; }
+    .back-btn { display: inline-block; margin-top: 20px; color: #fff; text-decoration: none; font-size: 14px; padding: 10px 20px; border-radius: 20px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); transition: 0.2s; }
+    .back-btn:hover { background: rgba(255,255,255,0.2); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>🧠 Blog</h2>
+
+    <a href="#" class="blog-item">
+      <div class="blog-date">2026-02-12</div>
+      <div class="blog-title">Combining DWA Algorithm with SAC for Navigation</div>
+    </a>
+
+    <a href="#" class="blog-item">
+      <div class="blog-date">2026-02-02</div>
+      <div class="blog-title">Debugging ROS TF Frames & EKF Localization</div>
+    </a>
+
+    <a href="#" class="blog-item">
+      <div class="blog-date">2026-01-18</div>
+      <div class="blog-title">Designing Reward Functions for Deep RL Training</div>
+    </a>
+
+    <a class="back-btn" href="index.html">← 返回主页</a>
+  </div>
+</body>
+</html>
