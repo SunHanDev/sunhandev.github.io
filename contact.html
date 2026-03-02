@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Han Sun</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { min-height: 100vh; background: radial-gradient(circle at top, #f8cdda, #1d1e22); display: flex; align-items: center; justify-content: center; color: #fff; }
+    .container { width: 100%; max-width: 420px; padding: 40px 20px; text-align: center; }
+    h2 { font-size: 22px; margin-bottom: 20px; }
+    .contact-card { display: flex; align-items: center; background: rgba(255,255,255,0.08); backdrop-filter: blur(10px); padding: 15px; margin: 12px 0; border-radius: 14px; border: 1px solid rgba(255,255,255,0.12); text-decoration: none; color: white; transition: 0.2s; }
+    .contact-card:hover { transform: translateY(-2px); background: rgba(255,255,255,0.15); }
+    .contact-icon { font-size: 20px; margin-right: 15px; width: 30px; text-align: center; }
+    .contact-info { text-align: left; }
+    .contact-title { font-size: 14px; font-weight: bold; }
+    .contact-desc { font-size: 12px; opacity: 0.7; }
+    .back-btn { display: inline-block; margin-top: 20px; color: #fff; text-decoration: none; font-size: 14px; padding: 10px 20px; border-radius: 20px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); transition: 0.2s; }
+    .back-btn:hover { background: rgba(255,255,255,0.2); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>📬 Contact Me</h2>
+
+    <a href="mailto:your_email@example.com" class="contact-card">
+      <div class="contact-icon">📧</div>
+      <div class="contact-info">
+        <div class="contact-title">Email</div>
+        <div class="contact-desc">Research Inquiries & Collabs</div>
+      </div>
+    </a>
+
+    <a href="https://github.com/SunHanDev" class="contact-card">
+      <div class="contact-icon">💻</div>
+      <div class="contact-info">
+        <div class="contact-title">GitHub</div>
+        <div class="contact-desc">@SunHanDev</div>
+      </div>
+    </a>
+
+    <a href="#" class="contact-card">
+      <div class="contact-icon">📱</div>
+      <div class="contact-info">
+        <div class="contact-title">Xiaohongshu (小红书)</div>
+        <div class="contact-desc">Live2D Virtual Streaming & Tech Sharing</div>
+      </div>
+    </a>
+
+    <a class="back-btn" href="index.html">← 返回主页</a>
+  </div>
+</body>
+</html>
